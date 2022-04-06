@@ -1,0 +1,18 @@
+<templateSet group="Java">
+  <template name="fun" value="public $RETURN_TYPE$ $METHOD_NAME$() {&#10;&#10;}" description="Creates a method with 0 args" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="RETURN_TYPE" expression="" defaultValue="&quot;void&quot;" alwaysStopAt="true" />
+    <variable name="METHOD_NAME" expression="" defaultValue="&quot;fun0&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="fun1" value="public $RETURN_TYPE$ $METHOD_NAME$($VAR1_TYPE$ $VAR1_NAME$) {&#10;&#10;}" description="Creates a method with 1 args" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="RETURN_TYPE" expression="" defaultValue="&quot;void&quot;" alwaysStopAt="true" />
+    <variable name="METHOD_NAME" expression="" defaultValue="&quot;fun0&quot;" alwaysStopAt="true" />
+    <variable name="VAR1_TYPE" expression="" defaultValue="&quot;int&quot;" alwaysStopAt="true" />
+    <variable name="VAR1_NAME" expression="" defaultValue="&quot;var1&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>

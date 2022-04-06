@@ -1,0 +1,10 @@
+<templateSet group="Test">
+  <template name="test" value="@Test&#10;@DisplayName(&quot;$DISPLAYNAME$&quot;)&#10;public void $FUNNAME$() {&#10;    $BODY$&#10;}" description="Creates a JUnit Test" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="DISPLAYNAME" expression="" defaultValue="&quot;Test&quot;" alwaysStopAt="true" />
+    <variable name="FUNNAME" expression="camelCase(DISPLAYNAME)" defaultValue="" alwaysStopAt="true" />
+    <variable name="BODY" expression="" defaultValue="&quot;org.junit.jupiter.api.Assertions.fail(\&quot;Not implemented\&quot;);&quot;" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>
